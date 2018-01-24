@@ -12,3 +12,4 @@ Just collecting a list of useful web config rules for IIS that I have needed ove
 * IP address allow / disallow
 * Access-Control-Allow-Origin (CORS)
 * Access-Control-Allow-Headers
+* enable gzip compression
