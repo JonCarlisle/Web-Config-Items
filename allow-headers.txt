@@ -1,0 +1,15 @@
+This will enable specific headers.
+
+I have included the whole XML tree to show where this block needs to be placed.
+
+This example sets Origin, X-Requested-With, Content-Type, Accept and Authorization to allow.
+
+<configuration>
+    <system.webServer>
+        <httpProtocol>
+            <customHeaders>
+                <add name="Access-Control-Allow-Headers" value="Origin, X-Requested-With, Content-Type, Accept, Authorization" />
+            </customHeaders>
+        </httpProtocol>
+    </system.webServer>
+</configuration>

@@ -10,3 +10,5 @@ Just collecting a list of useful web config rules for IIS that I have needed ove
 * .co.uk to .com rewrite using 301
 * http verb allow / disallow
 * IP address allow / disallow
+* Access-Control-Allow-Origin (CORS)
+* Access-Control-Allow-Headers
